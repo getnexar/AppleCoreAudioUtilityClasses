@@ -33,7 +33,7 @@ Additionally (and tagged separately) there is a branch which has (some) fixes fo
 
     p.subspec 'CASpectralProcessor' do |caSpectralProcessor|
       caSpectralProcessor.source_files = puBase + 'CASpectralProcessor.{cpp,h}'
-      caSpectralProcessor.framework = 'Accellerate'
+      caSpectralProcessor.framework = 'Accelerate'
       caSpectralProcessor.dependency 'AppleCoreAudioUtilityClasses@thehtb/PublicUtility/CABitOperations'
     end
 
